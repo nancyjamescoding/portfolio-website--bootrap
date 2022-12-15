@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@1,200&display=swap'); 
+ body{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+     font-family: sans-serif;
+     
+ }
+ .navbar{
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 14px;
+    letter-spacing: 0.2rem;
+    background: (0,0,0,0.6) !important;
+    padding: 20px 0;
+     
+ }
+ .navbar-dark .navbar-nav .navbar-link{
+     color: #ffff;
+     padding-left: 20px;
+ }
+ .navbar-dark .navbar-nav .navbar.active
+ .navbar-dark .navbar-nav .navbar:hover{
+     color: 1ebba3;
+ }
+ .heading-content{
+     position: absolute;
+     top: 40%;
+     width: 100%;
+     max-width: 100%;
+
+ }
+ .heading-content h5{
+     font-size: 4em;
+     font-weight: 300;
+     color: #ffff;
+     font-family: monospace;
+     
+ }
+ .heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color:#ccc;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px ;
+    
+}
+#about .btn{
+    border-left: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#about .a{
+    color: white;
+    text-decoration: none;
+    font-weight: 1em;
+    font-size: bold;
+}
+#about.btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+
+}
